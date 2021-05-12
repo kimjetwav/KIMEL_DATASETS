@@ -1,1 +1,20 @@
-.git/annex/objects/z4/MV/SHA256E-s219278--42a066ff3928c8ad1c476ba6ea328233d717c0ae16b76b8173bedd57374cc993.md/SHA256E-s219278--42a066ff3928c8ad1c476ba6ea328233d717c0ae16b76b8173bedd57374cc993.md
+Welcome to the alpha version of the Kimel datalad datasets.
+
+This page exists to inform you of what's available here, though so far it's just POND.
+
+The POND dataset is divisible into these subdatasets:
+
+POND
+POND/data/baseline/bids
+POND/data/baseline/blacklist
+POND/data/multisess/bids
+POND/pipelines/fmriprep/out/ciftify
+POND/pipelines/fmriprep/out/ciftify/qc_fmri
+POND/pipelines/fmriprep/out/ciftify/qc_recon_all
+POND/pipelines/fmriprep/out/fmriprep
+POND/pipelines/fmriprep/out/freesurfer
+POND/pipelines/fmriprep/out/freesurfer/enigma_qc/figures
+
+On SciNet, you may currently fetch these with `datalad install`, as well as any of the individual subject directories located under these superdatasets.
+
+In the future there will be more here, and more convenient ways to access these.
